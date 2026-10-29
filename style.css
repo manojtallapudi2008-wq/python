@@ -1,0 +1,105 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(255, 153, 0);
+  margin: 0;
+}
+
+header {
+  background-color:rgb(255, 106, 0);
+  color: rgb(251, 247, 247);
+  text-align: center;
+  padding: 40px 20px;
+  background-image:URL('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vZHxlbnwwfHwwfHx8&w=1000&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+.restaurant-name {
+  font-family: 'Pacifico','cursive';
+  font-size: 48px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+nav {
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color:rgb(140, 91, 0);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 30px;
+  color: #d84315;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #ffcc80;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.food-item {
+  background-color:white;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 500px;
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.food-item:hover {
+  border-color: rgb(73, 2, 2);
+  border-width: 1.6px;
+}
+
+.food-item h3 {
+  font-size: 22px;
+  color: red;
+  margin-bottom: 8px;
+}
+
+.food-item p {
+  color:brown;
+  font-size: 20px;
+   font-weight: 540;
+  margin-bottom: 8px;
+}
+
+.price {
+  font-size: 17px;
+  font-weight: 800;
+  color: green;
+}
+
+footer {
+  background-color: #b33924;
+  color:white;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 14px;
+  margin-top: 20px;
+}
